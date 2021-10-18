@@ -1,0 +1,11 @@
+db.viviendas.deleteMany({})
+db.viviendas.insertMany([
+    {tipo:"piso",situacion:"centro",planta:0,metroscuadrados:58,precio:500000},
+    {tipo:"casa",situacion:"afueras",planta:"-",metroscuadrados:190,precio:470000},
+    {tipo:"piso",situacion:"centro",planta:4,metroscuadrados:80,precio:500000},
+    {tipo:"piso",situacion:"centro",planta:7,metroscuadrados:120,precio:700000},
+    {tipo:"oficina",situacion:"centro",planta:4,metroscuadrados:97,precio:180000},
+    {tipo:"oficina",situacion:"periferia",planta:2,metroscuadrados:105,precio:145000},
+    {tipo:"piso",situacion:"centro",planta:2,metroscuadrados:45,precio:98000},
+    {tipo:"piso",situacion:"periferia",planta:3,metroscuadrados:130,precio:130000}
+    ])
